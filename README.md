@@ -23,7 +23,7 @@ Here are some thoughts:
 Install the submodules. 
 
 ```bash
-# Initialize and update submodules
+# initialize and update submodules
 git submodule update --init --recursive
 ```
 
@@ -75,6 +75,6 @@ eval "$(pyenv init -)"
 source ~/.zshrc
 
 # check the versions
-python --version  # Should show 3.13.0
-which python  # Should show ~/.pyenv/shims/python
+python --version  # should show 3.13.0
+which python  # should show ~/.pyenv/shims/python
 ```
