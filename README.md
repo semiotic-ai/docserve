@@ -4,7 +4,7 @@
 
 This is a psuedo-coding exercise, your solution does not have to work or even run properly. Our goal is simply to see how you think. 
 
-Your goal is to create an API Server for automating the documentation of database schemas. We have provided you with an entrypoint to do so in `docserve/docserve/main.py`. The setup instruction are below. 
+Your goal is to create an API Server for automating the documentation of GraphQL schemas. We have provided you with an entrypoint to do so in `docserve/docserve/main.py`. The setup instruction are below. 
 
 Here are some goals: 
 
