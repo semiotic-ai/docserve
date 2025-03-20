@@ -175,3 +175,6 @@ cython_debug/
 
 # ascii art 
 ascii_art.txt
+
+# generated artifacts
+documented_schema.graphql
