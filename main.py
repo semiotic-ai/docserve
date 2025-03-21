@@ -41,7 +41,7 @@ def validate_user_schema(gold, pred):
 
 
 ###########################################################################
-# Base Classes (Please implement as you see fit)                          #
+# Base Classes (Please implement. You may add more classes as needed)     #
 ###########################################################################
 
 class BaseModel:
@@ -162,7 +162,7 @@ def test_all():
         print("test_document_schema:      passed")
     except:
         print("test_document_schema:      failed")
-        
+
     try:
         test_start()
         print("test_start:                passed")
