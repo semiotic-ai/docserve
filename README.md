@@ -1,10 +1,13 @@
-# docserve
-
-## Task
+# Task
 
 This is a psuedo-coding exercise, your solution does not have to work or even run properly. Our goal is simply to see how you think. 
 
-Your goal is to create an API Server for automating the documentation of GraphQL schemas. We have provided you with an entrypoint to do so in `docserve/docserve/main.py`. The setup instruction are below. 
+Your goal is to create an API Server for automating the documentation of GraphQL schemas. `main.py` is intended purely to help you get started, feel free to use any implementation approach as you see fit. The `config.json` and `example.graphql` are simply reference materials, you are not required to use them. 
+
+Here are some assumptions: 
+
+- [ ] You can assume that a function name properly completes it's implied goal (i.e. validate_user_schema(gold, pred))
+- [ ] You can assume that you have a working prompt for a given goal (i.e. system_prompt)
 
 Here are some goals: 
 
