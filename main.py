@@ -71,14 +71,14 @@ def example():
     with open("config.json", "r") as f:     
         config = json.load(f)
     
-    # create server
+    # Create server
     server = DocumentationServer(config=config)
 
-    # document schema
+    # Document schema
     docs = server.document_schema(schema)
     print(docs)
     
-    # start server
+    # Start server
     server.start()
 
 
