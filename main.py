@@ -96,7 +96,7 @@ class DocumentationServer:
 
 # python main.py test
 def test():
-    print("hello, world!")
+    logger.info("hello, world!")
 
 # helper function to create a documentation server
 def documentation_server():
@@ -141,33 +141,33 @@ def test_start():
 def test_all():
     try:
         test_documentation_server()
-        print("test_documentation_server: passed")
+        logger.info("test_documentation_server: passed")
     except: 
-        print("test_documentation_server: failed")
+        logger.error("test_documentation_server: failed")
 
     try:
         test_get_models()
-        print("test_get_models:           passed")
+        logger.info("test_get_models:           passed")
     except:
-        print("test_get_models:           failed")
+        logger.error("test_get_models:           failed")
 
     try:
         test_add_model()
-        print("test_add_model:            passed")
+        logger.info("test_add_model:            passed")
     except:
-        print("test_add_model:            failed")
+        logger.error("test_add_model:            failed")
 
     try:
         test_document_schema()
-        print("test_document_schema:      passed")
+        logger.info("test_document_schema:      passed")
     except:
-        print("test_document_schema:      failed")
+        logger.error("test_document_schema:      failed")
 
     try:
         test_start()
-        print("test_start:                passed")
+        logger.info("test_start:                passed")
     except:
-        print("test_start:                failed")
+        logger.error("test_start:                failed")
 
 ##########################################
 # Main
