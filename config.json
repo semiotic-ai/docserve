@@ -1,0 +1,18 @@
+{
+  "model_config": {
+    "name": "default_name",
+    "api_key": "default_api_key",
+    "temperature": 0.5
+  },
+  "server_config": {
+    "port": 8000,
+    "log_level": "INFO",
+    "timeout": 10,
+    "max_requests": 1000,
+    "token_limit": 100000,
+    "limit_period": 60
+  },
+  "tool_config": {
+    "...": "..."
+  }
+}

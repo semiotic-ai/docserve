@@ -1,0 +1,13 @@
+type User @entity {
+  id: ID!
+  name: String!
+  email: String!
+  posts: [Post!]
+}
+
+type Post @entity {
+  id: ID!
+  title: String!
+  content: String
+  author: User!
+}
