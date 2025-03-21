@@ -2,18 +2,18 @@
 
 This is a psuedo-coding exercise, your solution does not have to work or even run properly. Our goal is simply to see how you think. 
 
-Your goal is to create an API Server for automating the documentation of GraphQL schemas. `main.py` is intended purely to help you get started, feel free to use any implementation approach as you see fit. The `config.json` and `example.graphql` are simply reference materials, you are not required to use them. 
+Your goal is to create an API Server for automating the documentation of GraphQL schemas. See `main.py` as your starting point. Feel free to use any implementation approach as you see fit. You may utilize any external package. You can modify any file, unless otherwise specified. 
 
 Here are some assumptions: 
 
 - [ ] You can assume that a function name properly completes it's implied goal (i.e. validate_user_schema(gold, pred))
-- [ ] You can assume that you have a working prompt for a given goal (i.e. system_prompt)
+- [ ] You can assume that your prompts work for a given goal (don't worry about "prompt engineering")
 
 Here are some goals: 
 
 - [ ] The API should serve a selectable LLM model
 - [ ] The API should ensure the user's schema is not corrupted
-- [ ] The API should be constructed in a way that will enable the addition of new tools and features
+- [ ] Please consider how you would hanlde adding new tools and features in the future
 
 Here are some thoughts: 
 
