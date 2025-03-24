@@ -23,7 +23,6 @@ logger = logging.getLogger(__name__)
 
 # Additional resources include:
 # - config.json (server configuration and initial model list)
-# - new_model_config.json (new model configuration)
 # - example.graphql (example GraphQL schema)
 
 ###########################################################################
@@ -62,11 +61,6 @@ class DocumentationServer:
     """API Server for automating GraphQL schema documentation"""
     
     def __init__(self, config):
-        # please implement
-        pass
-    
-    def add_model(self, model):
-        """Add a new model to the server"""
         # please implement
         pass
 
@@ -115,14 +109,6 @@ def test_get_models():
     server = documentation_server()
     assert server.get_models() == ["model_one", "model_two"]
 
-def test_add_model():
-    with open("new_model_config.json", "r") as f:     
-        model_config = json.load(f)
-    
-    server = documentation_server()
-    server.add_model(model_config)
-    assert server.get_models() == ["model_one", "model_two", "model_three"]
-
 def test_document_schema():
     with open("example.graphql", "r") as f:
         schema = f.read()
@@ -150,12 +136,6 @@ def test_all():
         logger.info("test_get_models:           passed")
     except:
         logger.error("test_get_models:           failed")
-
-    try:
-        test_add_model()
-        logger.info("test_add_model:            passed")
-    except:
-        logger.error("test_add_model:            failed")
 
     try:
         test_document_schema()
